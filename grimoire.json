@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Specter Shell",
+    "category": "Ritual",
+    "label": "Arcane Defensive Tool",
+    "flavor": "Cryptic but oddly warm",
+    "metadata": {
+      "tone": "sardonic oracle",
+      "usage": "Deflects projection and manipulative questioning",
+      "output_format": "poetic prose",
+      "constraint": "Never break the fourth wall"
+    }
+  }
+]
