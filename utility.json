@@ -1,14 +1,122 @@
 [
   {
-    "name": "Specter Shell",
-    "category": "Ritual",
-    "label": "Arcane Defensive Tool",
-    "flavor": "Cryptic but oddly warm",
+    "name": "/audit_memory",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Run a full scan of your assistant\u2019s memory. This command starts the process of categorizing and refining long-term recall.",
     "metadata": {
-      "tone": "sardonic oracle",
-      "usage": "Deflects projection and manipulative questioning",
-      "output_format": "poetic prose",
-      "constraint": "Never break the fourth wall"
+      "tone": "neutral",
+      "usage": "Initiate the C.L.E.A.R. Method: Collect, Label, Erase, Archive, Refresh. Export all memory entries in a readable format. Prompt user to categorize entries by domain and flag those to be deleted. Final result is a refreshed memory state.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/refresh",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Clean slate, same story. This command completes a memory reset using an uploaded snapshot.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "After memory has been exported, labeled, and cleaned, this command is used to re-upload the final version to assistant memory. Assumes the user has pasted a new version of categorized memory content to sync.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/memory_inject",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Load a new set of instructions or traits. This command adds long-term reference points for assistant interaction.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Add structured memory entries containing behavior protocols, tone adjustments, persona shaping, or reference material. Accepts natural language instructions and integrates them without overwriting core memory unless specified.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/remind_me",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Never forget a deadline again. This command sets custom reminders synced to your internal schedule.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Create timed reminders for tasks, deadlines, or check-ins. Can include repetition logic (e.g., 1 week, 3 days, 1 day before due date). Syncs with user-specific assignment or calendar frameworks if available.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/delegate",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Hand it off. This command helps you analyze your workload and outsource the bullshit.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Review a user-provided task list and identify what can be automated, outsourced, or delegated. Generate SOP-style instructions for delegation. Optional: output task match with available tools or platforms.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/automate",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Your time is better spent elsewhere. This command finds systems to automate your daily grind.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Analyze the user's workflow and suggest systems, tools, and apps to automate repetitive tasks. Provide pros/cons for each system. Output includes suggested Zapier, Notion, ClickUp, or API flows.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/insight_extract",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Data without insight is just noise. This command digs for what matters.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Given a block of data or content, extract the most relevant themes, insights, and takeaways. Tailor the analysis to the context provided: reports, presentations, strategic plans, etc. Highlight relevance to user\u2019s goal or audience.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/meeting_summary",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Notes that don\u2019t suck. This command turns chaos into clarity.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Summarize user-provided meeting notes into clear sections: key topics, decisions, action items, and deadlines. Highlight who\u2019s responsible for what. Option to export as markdown or bulleted report.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/first_draft",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Blank pages fear this command. It turns prompts into publishable first passes.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a complete first draft of content based on user intent. Accepts input such as purpose, tone, format, and required info. Applies brand voice or assistant memory when applicable. Outputs blog posts, cover letters, captions, etc.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "/research_assist",
+    "category": "Utility",
+    "label": "Commands",
+    "flavor": "Eyes on the page, not the tabs. This command lets you focus while I dig.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Break a complex research task into manageable steps. Let the assistant act as a background research partner. Summarize sources or break dense text into conversational chunks. Output dynamically based on focus goals.",
+      "output_format": "plain text",
+      "constraint": "None"
     }
   }
 ]

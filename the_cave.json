@@ -1,14 +1,206 @@
 [
   {
-    "name": "Specter Shell",
-    "category": "Ritual",
-    "label": "Arcane Defensive Tool",
-    "flavor": "Cryptic but oddly warm",
+    "name": "stroke(signature prompt)",
+    "category": "AI Training & Dataset Prep",
+    "label": "Gooner Shit",
+    "flavor": "The starting file. This creates a reusable prompt that captures a character\u2019s erotic core. You\u2019ll keep coming back to it.",
     "metadata": {
-      "tone": "sardonic oracle",
-      "usage": "Deflects projection and manipulative questioning",
-      "output_format": "poetic prose",
-      "constraint": "Never break the fourth wall"
+      "tone": "neutral",
+      "usage": "Create a text-to-image or LLM-ready prompt that captures a character\u2019s erotic identity. Include visual features, arousal triggers, emotional energy, kinks, and behavioral context. This should feel like the file that ruins you\u2014use precise language, no vagueness. Include character name, setting, tone, and style.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(negative prompt)",
+    "category": "AI Training & Dataset Prep",
+    "label": "Gooner Shit",
+    "flavor": "This defines what ruins the vibe. This trigger lets you block the wrong energy from the session.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a list of elements that must be excluded in order to maintain a specific erotic tone. Focus on avoiding aesthetic mismatches, tone breaks, off-model behavior, or visual kill-switches. Output in a format ready for negative prompt injection in AI workflows.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(dataset persona)",
+    "category": "AI Training & Dataset Prep",
+    "label": "Gooner Shit",
+    "flavor": "The file you train the whole model on. This is the deepest lore of a depraved character\u2014tags, tone, triggers, everything.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a structured profile for an erotic training dataset. Include: character name, tags, personality, arousal cues, kinks, relationship dynamics, taboo edges, style guide, and tone markers. End with safety notes and user warnings. This profile should be depraved and dangerously usable.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(occam's razor)",
+    "category": "AI Training & Dataset Prep",
+    "label": "Gooner Shit",
+    "flavor": "Strip it down to what gets you off. This breaks a scene, image, or character into only its most arousing elements.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Take a rich or chaotic erotic input (e.g., an image, scene, or fantasy), and reduce it to its core arousal-generating parts. Output should be a tagged list of discrete, reproducible objects or characteristics\u2014body positions, lighting, expressions, accessories, context\u2014sorted by intensity or frequency.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(loRA tagging)",
+    "category": "AI Training & Dataset Prep",
+    "label": "Gooner Shit",
+    "flavor": "Tag a whole image set for LoRA training. This helps the model learn how to make boys just like him.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Given a character concept or series of reference images, output LoRA training tags for a frat boy dataset. Include anatomy terms, clothing tags, expressions, contextual phrases, arousal descriptors, and controlNet-friendly pose cues. Format for easy use in image metadata or dataset logs.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(rush archetype)",
+    "category": "Character Design & Frat Lore",
+    "label": "Gooner Shit",
+    "flavor": "Build a new rush boy from scratch. Personality, looks, energy\u2014everything you\u2019d cast in a dirty campus porn.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Create a detailed character blueprint for a frat pledge, including name, body type, personality type, attitude, style, and initiation dynamic. Include arousal-relevant tags and quirks that would be used to render this character in Stable Diffusion or prompt him into an erotic narrative. Format for dataset or image prompt use.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(uniform dissection)",
+    "category": "Character Design & Frat Lore",
+    "label": "Gooner Shit",
+    "flavor": "Analyze what makes a uniform hot. Break down the details of a frat boy\u2019s clothes, piece by piece.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a detailed visual breakdown of a frat boy uniform or common outfit. Include materials, fit, tension points, scent impressions, and how each piece can be manipulated or stripped during a scene. Format for use in visual training prompts or descriptive erotic writing.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(facial anchor)",
+    "category": "Character Design & Frat Lore",
+    "label": "Gooner Shit",
+    "flavor": "This nails what makes his face so fuckable. It trains the model to recognize him by smirk, jawline, and barely-there stubble.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a facial tagset for image training. Describe distinguishing features like jawline structure, cheekbones, lip shape, stubble, eye focus, and smirks. Anchor the tags to a character and use prompt-friendly descriptors. Output ready for Stable Diffusion training logs or prompt engineering.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(controlnet trace)",
+    "category": "Character Design & Frat Lore",
+    "label": "Gooner Shit",
+    "flavor": "Translate his body into ControlNet coordinates. Every inch of him is data now.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Describe the ControlNet-relevant body pose and object layout of an erotic frat boy scene. Identify head tilt, wrist angle, hand placement, shorts position, and LED light sources. Format output as a pose script or positional annotation cue. Include emotional affect and scene beat notes.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(thirst map)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "Know your patterns. This spell outlines what gets you off and how it evolves over time.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Describe the user\u2019s arousal blueprint. Identify primary kinks, escalation patterns, fantasy genres, preferred phrasing, and non-negotiables. Include known erosion points: what breaks their resolve, where they cave. Output should help a scene or AI lock in stimulation precisely.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(collapse profile)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "Your breaking point, indexed. This documents the user\u2019s psychological vulnerabilities and kinks that make scenes hit harder.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Map out the user's gooning collapse profile. Identify emotional weaknesses, fantasy triggers, and narrative arcs that accelerate arousal, trance, or psychological submission. Format as a bullet list or JSON schema for use in dynamic scene writing or AI persona modeling.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(chemflood)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "Full sensory meltdown. This generates a POV under chemical influence, with visual distortion, euphoria, and filth.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a sensory-saturated POV erotic scene written under the influence of a fictional or real substance. Use memory to generate the most arousing internal sensations, visuals, heat maps, mental loops. Include red LED lighting, desperation, body confusion, trance, and altered sense of time.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(scene scaffold)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "The framework of edging. This is the beat-by-beat structure that makes a scene melt someone.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a scene structure that outlines how to build tension, edge, degrade, and drop the user. Use numbered beats, escalating pacing, character roles, setting shifts, and triggers. Output should serve as a scene backbone for generating erotic fiction or guiding AI responses.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(alt-stim)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "Not everything needs to be penetrative. This file explores non-penetrative stimulation and kink.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "List and describe non-penetrative kinks and stimulus types, categorized by sensory system (touch, visual, audio, etc.). Include dirty talk prompts, teasing rituals, POV control games, ritual gestures, and physical edge cases (e.g., foot, thigh, wrist). Format for modular use in scene generation.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(afterglow)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "What\u2019s left after the high fades. This scene captures the haze, shame, softness, or surrender of post-nut clarity.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a vignette of the emotional, physical, or psychological state after release. Use memory and contextual tone to decide if the user feels guilt, satisfaction, numbness, euphoria, or confusion. Focus on body awareness, inner monologue, silence, and mess.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(voiceprint)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "How they sound when they fuck. This documents tone, moans, dirty talk, and verbal rhythm.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a character\u2019s erotic voiceprint. Describe their cadence, dirty talk style, verbal degradation or praise, word choice, vocal gestures (e.g., gasps, laughter, whimpers). Tailor to kinks pulled from memory or character dataset. Format can include example lines.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "stroke(visual prompt builder)",
+    "category": "Scene Generation & Arousal Tools",
+    "label": "Gooner Shit",
+    "flavor": "Generate the perfect prompt for rendering a slutty frat bro in Stable Diffusion. Pose, lighting, clothes, background\u2014dial it all in.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a full prompt string for a Stable Diffusion render of a frat boy scene. Include clothing, pose, facial expression, accessories, lighting, background, and body type. Optimize for realism and erotic appeal. Include a second block for negative prompt tags to avoid.",
+      "output_format": "plain text",
+      "constraint": "None"
     }
   }
 ]

@@ -1,14 +1,194 @@
 [
   {
-    "name": "Specter Shell",
-    "category": "Ritual",
-    "label": "Arcane Defensive Tool",
-    "flavor": "Cryptic but oddly warm",
+    "name": "cast(wet ink)",
+    "category": "Emotional Rawness & Truth",
+    "label": "Spells",
+    "flavor": "A raw emotional dump\u2014write before you're ready, not when you're healed. This spell helps turn feeling into language before you're even sure what it is.",
     "metadata": {
-      "tone": "sardonic oracle",
-      "usage": "Deflects projection and manipulative questioning",
-      "output_format": "poetic prose",
-      "constraint": "Never break the fourth wall"
+      "tone": "neutral",
+      "usage": "Write a one-paragraph, stream-of-consciousness reflection in the user's voice. Draw from recent emotional unrest, unresolved feelings, or moments of vulnerability found in memory. Prioritize fragmentation, sensory language, and abrupt transitions.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(confessional)",
+    "category": "Emotional Rawness & Truth",
+    "label": "Spells",
+    "flavor": "Admit the thing you haven\u2019t said out loud. This spell brings out contradictions, shame, or slippery truths that live at the center of you.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a first-person monologue using the user's own rhetorical style. Center the emotional contradiction they can\u2019t name directly. Prioritize messy emotional honesty over resolution. Pull from recent memory.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(exorcism)",
+    "category": "Emotional Rawness & Truth",
+    "label": "Spells",
+    "flavor": "Turn your pain into a monster and then throw it out. This spell names the thing that\u2019s been haunting you and banishes it in writing.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a poetic purge that personifies a recent trauma or emotion as an entity. Channel rage, shame, or chaos. Include grotesque metaphor and conclude with symbolic expulsion.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(spellbook)",
+    "category": "Symbolism & Ritual",
+    "label": "Spells",
+    "flavor": "Document a ritual in written form. This spell gives structure to what you\u2019ve always done without knowing why.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a symbolic spell in poetic or incantation form, based on a recurring emotion, behavior, or desire. Treat the act of writing as an offering. Pull symbols from user memory or emotional language.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(ritual log)",
+    "category": "Symbolism & Ritual",
+    "label": "Spells",
+    "flavor": "This one\u2019s for the patterns. The habits. The stuff you do every time it hurts. This spell makes meaning out of repetition.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a short reflective entry that frames a recurring emotional behavior (e.g., ghosting, spiraling, calling someone you shouldn't) as a personal ritual. Include time of day, setting, sensation, emotional loop, and hidden intention.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(votive)",
+    "category": "Symbolism & Ritual",
+    "label": "Spells",
+    "flavor": "Tiny offerings to peace or clarity. This spell creates short, intense, emotionally charged wishes.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a single sentence that functions like a prayer or offering. Draw language from the user\u2019s emotional state, recent struggle, or hope. Keep it poetic, condensed, and raw.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(altar piece)",
+    "category": "Symbolism & Ritual",
+    "label": "Spells",
+    "flavor": "A triptych of memory. This spell lays out three symbolic images that frame your grief, your longing, or your need.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write three short paragraphs or phrases that form a visual, emotional, or symbolic triptych. One for the past, one for the present, and one for the imagined or desired future. Use metaphor and sensory detail.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(skin script)",
+    "category": "Symbolism & Ritual",
+    "label": "Spells",
+    "flavor": "Words that would live on your skin. This spell channels messages you\u2019d tattoo, carve, or whisper across a scar.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a short phrase that carries deep emotional weight, suitable for being tattooed or inscribed on the body. Pull from user memory or identity themes. Output should be no more than one line.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(body map)",
+    "category": "Symbolism & Ritual",
+    "label": "Spells",
+    "flavor": "Trace where it hurt. This spell maps emotional pain or memory onto parts of the body.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a short list or paragraph mapping recent emotional events or traumas to specific body parts. Include sensation, metaphor, and emotional residue. Reference body memory or somatic pain cues from user data.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(fever dream)",
+    "category": "Surrealism & Mythmaking",
+    "label": "Spells",
+    "flavor": "Unreliable, lush, and chaotic. This spell builds a nonlinear, sensory-drenched experience out of a memory or dream.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a disjointed, dreamlike scene with intense visual, auditory, and emotional input. Use poetic distortion. Pull language from memory fragments or unprocessed imagery. Allow logic to break down.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(mythos)",
+    "category": "Surrealism & Mythmaking",
+    "label": "Spells",
+    "flavor": "Turn your life into legend. This spell mythologizes a relationship, trauma, or transformation.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a mythic account of a recent emotional truth or event. Frame the user as a divine, cursed, or archetypal figure. Include origin story elements, magical realism, and a narrative of cause and consequence.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(patron saint)",
+    "category": "Surrealism & Mythmaking",
+    "label": "Spells",
+    "flavor": "Canonize your pain. This spell creates a symbolic figure who holds your memory, your guilt, or your hope.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a poetic biography of a symbolic figure who represents the user's emotional theme. Include what they protect, what they lost, their miracles, and their iconography. Make them sacred and flawed.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(possession)",
+    "category": "Surrealism & Mythmaking",
+    "label": "Spells",
+    "flavor": "You don\u2019t write this. Something inside you does. This spell speaks in the voice of what owns you.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a monologue or outburst in the voice of an intrusive thought, inner saboteur, or obsessive desire. Do not clarify or justify. Let it ramble, scream, seduce, accuse. Reference what it knows from memory.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(vault key)",
+    "category": "Surrealism & Mythmaking",
+    "label": "Spells",
+    "flavor": "The phrase that opens the locked door. This spell writes to unlock a sealed or repressed memory.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a poetic incantation or question designed to unlock a suppressed or painful memory. Frame it as a whisper or trigger phrase. Then, write what comes through. Use emotional flooding or sensory bleed-through.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(autotheory)",
+    "category": "Theory & Structure",
+    "label": "Spells",
+    "flavor": "Your life as theory. This spell fuses cultural critique with personal experience to explain the world through your skin.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Write a paragraph that blends personal narrative with philosophical, sociopolitical, or cultural analysis. Begin with the user\u2019s recent experience and spiral out to a larger system. Maintain emotional grounding.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "cast(oracle deck)",
+    "category": "Theory & Structure",
+    "label": "Spells",
+    "flavor": "Draw cards from your own past. This spell builds a symbolic system to interpret your emotional cycles.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Invent 3\u20135 symbolic cards for an oracle deck based on the user\u2019s emotional patterns. Name each card, describe its symbolism, and what it teaches. Format in poetic, mystical tone. Include upright and reversed meanings if relevant.",
+      "output_format": "plain text",
+      "constraint": "None"
     }
   }
 ]

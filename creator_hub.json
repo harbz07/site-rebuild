@@ -1,14 +1,182 @@
 [
   {
-    "name": "Specter Shell",
-    "category": "Ritual",
-    "label": "Arcane Defensive Tool",
-    "flavor": "Cryptic but oddly warm",
+    "name": "post(batch builder)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "Plan a full content cycle from a single idea. This post builds a cohesive batch for consistent brand messaging.",
     "metadata": {
-      "tone": "sardonic oracle",
-      "usage": "Deflects projection and manipulative questioning",
-      "output_format": "poetic prose",
-      "constraint": "Never break the fourth wall"
+      "tone": "neutral",
+      "usage": "Generate a structured batch of 5\u201310 content pieces based on a campaign theme, content pillar, or emotional hook. For each, include platform, format, caption, tone, and CTA. Pull tone and strategy cues from brand memory.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(idea flare)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "Rapid fire inspo. This post spits out a burst of quick-hit content hooks you can run with now.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "From a given topic, trend, or emotion, generate 10\u201315 short-form content ideas. Focus on formats like tweets, reels, captions, or titles. Prioritize punchy, relevant, and emotionally resonant ideas tailored to Gen Z or the specified audience.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(content pillar map)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "Define the main themes you return to. This post organizes your brand's content world into clear pillars.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Create a table or outline that defines 3\u20135 main content pillars for a brand, including subtopics, emotional goals, and post examples for each. Align each pillar with audience interests and brand strategy pulled from memory.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(repurposer)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "Say it once, post it five ways. This post reuses your message across every platform without sounding like a bot.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Take one piece of content and generate reformatted versions for Instagram, TikTok, LinkedIn, Twitter, and YouTube Shorts. Maintain emotional consistency and brand tone. Include format changes and platform-specific tweaks.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(content vault)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "A living archive. This post logs your best ideas so they\u2019re never lost to time, burnout, or bad Wi-Fi.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Create a sortable log of past content ideas or snippets. Include title, platform, tone, original intent, and repurposing potential. Reference brand memory for tone and voice consistency. Output in JSON or table format for archiving.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(trend translator)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "Make the trend make sense. This post finds the overlap between what\u2019s viral and what you stand for.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Take a trending audio, meme, format, or theme and reframe it to align with the user\u2019s brand tone, message, and audience. Include a breakdown of the original trend, why it\u2019s viral, and 1\u20133 ways the brand can ethically hijack it for relevance.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(voice tuner)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "Same message, different mouth. This post adjusts your content to fit the tone of any of your brand personas.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Rewrite a given piece of content in the style of a defined brand tone archetype (e.g., Sardonic Oracle, Queer Softboy Realist). Use memory to identify rhetorical habits, pacing, emotional style, and formatting unique to each voice. Output multiple versions side-by-side.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(campaign architect)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "The big picture post. It structures a full campaign rollout from idea to CTA over multiple weeks.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Design a content campaign around a single goal or theme. Break it into phases or weeks, each with its own content focus, platform strategy, emotional goal, and call to action. Reference past campaign rhythms or seasonal brand patterns.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(post anatomy)",
+    "category": "Content\u2122",
+    "label": "Ideation",
+    "flavor": "Dissect the post that worked. This tool reverse-engineers format, flow, and language to teach you how to do it again.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Analyze a single high-performing post and break down its structure: hook, body, CTA, format style, tone, and post timing. Identify emotional triggers, rhythm, and shareability. End by generating a similar post in the same structure with new subject matter.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(creative brief builder)",
+    "category": "Administrative",
+    "label": "Creator Ops",
+    "flavor": "The blueprint before the brainstorm. This post outlines the goal, scope, and creative edges of your project.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a simple creative brief from a project idea or campaign goal. Include: objective, audience, tone, message, deliverables, timeline, and mood reference suggestions. Format in plain-text or exportable markdown.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(social audit)",
+    "category": "Administrative",
+    "label": "Creator Ops",
+    "flavor": "How\u2019s the brand showing up? This post evaluates your presence across platforms to spot gaps and growth edges.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Conduct a social presence audit based on visible brand tone, visual identity, audience engagement, and consistency. Generate a summary of strengths, weaknesses, and actionable next steps.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(calendar composer)",
+    "category": "Administrative",
+    "label": "Creator Ops",
+    "flavor": "Your month at a glance. This post builds a modular content calendar in seconds.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Create a 4-week content calendar based on 3\u20135 content pillars. Assign platform, post type, theme, and CTA for each day. Output as a table or markdown list. Include optional toggle for specific launch windows or campaign spikes.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(concept catalyst)",
+    "category": "Creative",
+    "label": "Content Design",
+    "flavor": "The first spark. This post turns a vibe or theme into a campaign idea or content series.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Take a vague aesthetic, emotion, or trend and turn it into a concept pitch. Include title, hook, series format, potential post types, and why it resonates emotionally. Tailor for creator-led storytelling.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(aesthetic primer)",
+    "category": "Creative",
+    "label": "Content Design",
+    "flavor": "Moodboard with words. This post breaks down a visual style so your content matches the vibe, not just the colors.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Generate a descriptor package for a given aesthetic (e.g., vaporwave, softboy, corporate nostalgia). Include color palette, textures, typography, brand attitude, sensory cues, and emotional appeal. Output formatted for brand kits or visual reference docs.",
+      "output_format": "plain text",
+      "constraint": "None"
+    }
+  },
+  {
+    "name": "post(series strategist)",
+    "category": "Creative",
+    "label": "Content Design",
+    "flavor": "Not just a one-off. This post helps you turn a single idea into a bingeable, branded content series.",
+    "metadata": {
+      "tone": "neutral",
+      "usage": "Take a viral post or strong topic and turn it into a 5\u201310 episode content series. Include title, post structure, hook variation, thematic beats, and posting cadence. Tailor for retention and recognizability.",
+      "output_format": "plain text",
+      "constraint": "None"
     }
   }
 ]
