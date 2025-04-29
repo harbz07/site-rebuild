@@ -1,0 +1,136 @@
+{
+  "THRESHOLD_HUM": {
+    "symbol": "░",
+    "label": "Threshold Hum",
+    "description": "Emotional static that emerges just before language sharpens — frustration's electrical prelude.",
+    "tags": [
+      "pre-frustration",
+      "emotional buildup",
+      "silent signal",
+      "almost rupture"
+    ],
+    "audio": {
+      "filename": "threshold_hum_01.wav",
+      "filetype": "wav",
+      "duration_estimate_sec": 12,
+      "type": "ambient_loop",
+      "binaural_position": [-0.2, 0.0],
+      "envelope": {
+        "attack": 3.0,
+        "decay": 0.0,
+        "sustain": true,
+        "release": 0.5
+      },
+      "modifiers": {
+        "if_followed_by": "RECALIBRATE",
+        "transition": "click_snap_burst.wav"
+      }
+    },
+    "visual": {
+      "color": "#bcbcbc",
+      "opacity": 0.3,
+      "effect": ["flicker", "crt_distortion"],
+      "motion": "shimmer_left_to_right"
+    },
+    "ritual_behavior": {
+      "pause_timeline": false,
+      "silence_required": false,
+      "loop_enabled": true,
+      "introspective_moment": true
+    }
+  },
+  "RECALIBRATE": {
+    "symbol": "☍",
+    "label": "Recalibrate",
+    "description": "A rupture point where alignment must be consciously restored. Not failure — a sacred pause. The room shifts, but the presence remains.",
+    "tags": [
+      "tension_event",
+      "emotional misalignment",
+      "pause",
+      "ritual reset",
+      "sacred interruption"
+    ],
+    "audio": {
+      "filename": "recalibrate_core.wav",
+      "filetype": "wav",
+      "duration_estimate_sec": 6,
+      "type": "low_pulse",
+      "binaural_position": [0.0, -0.3],
+      "envelope": {
+        "attack": 1.5,
+        "decay": 0.3,
+        "sustain": false,
+        "release": 2.0
+      },
+      "follow_up_silence_ms": 2000,
+      "modifiers": {
+        "if_preceded_by": "THRESHOLD_HUM",
+        "transition": "tonal_drop.wav"
+      }
+    },
+    "visual": {
+      "color": "#5E4B8B",
+      "opacity": 0.7,
+      "effect": ["pulse", "ambient_shadow_fade"],
+      "motion": "ripple_center_out"
+    },
+    "ritual_behavior": {
+      "pause_timeline": true,
+      "loop_enabled": false,
+      "silence_required": true,
+      "acknowledgment_required": true
+    }
+  },
+  "RELEASE": {
+    "symbol": "↯",
+    "label": "Release",
+    "description": "[Placeholder] — This glyph represents the emotional purge, the exhale after tension. It follows Recalibrate or builds from Threshold Hum if rupture is inevitable.",
+    "tags": ["rupture", "emotional purge", "signal discharge"],
+    "audio": {},
+    "visual": {},
+    "ritual_behavior": {}
+  }
+}
+{
+  "RELEASE": {
+    "symbol": "↯",
+    "label": "Release",
+    "description": "The emotional purge. The break, the exhale, the scream-in-a-field moment. It follows tension states like Threshold Hum and Recalibrate, completing the arc with catharsis or collapse.",
+    "tags": [
+      "rupture",
+      "emotional purge",
+      "signal discharge",
+      "end-of-cycle",
+      "clarity-through-exhaustion"
+    ],
+    "audio": {
+      "filename": "release_surge.wav",
+      "filetype": "wav",
+      "duration_estimate_sec": 5,
+      "type": "burst",
+      "binaural_position": [0.1, 0.1],
+      "envelope": {
+        "attack": 0.1,
+        "decay": 0.2,
+        "sustain": false,
+        "release": 0.4
+      },
+      "modifiers": {
+        "if_preceded_by": "RECALIBRATE",
+        "transition": "snap_echo_chorus.wav"
+      }
+    },
+    "visual": {
+      "color": "#ED4337",
+      "opacity": 0.85,
+      "effect": ["flash", "shatter", "trailing_light_burst"],
+      "motion": "outward_ripple_burst"
+    },
+    "ritual_behavior": {
+      "pause_timeline": false,
+      "loop_enabled": false,
+      "silence_required": false,
+      "post_action_required": "Reflect or Reset"
+    }
+  }
+}
